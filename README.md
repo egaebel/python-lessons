@@ -2,10 +2,16 @@
 
 ## Install Python3
 
+Download and install Python from:
+
+https://www.python.org/downloads/release/python-3810/
+
+Click "Windows installer (64-bit)" to download and then follow the installation.
+
 ## Setup a VirtualEnv for today's lesson
 
 Virtualenv (now called venv for Python3 apparently) is a handy way to separate
-out Python projects, so that the packages you install for one project won't 
+out Python projects, so that the packages you install for one project won't
 interfere with another. It comes with Python.
 
 Run the following in a directory you want to keep your code in:

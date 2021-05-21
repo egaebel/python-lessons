@@ -21,9 +21,13 @@ Assignment:
         Ethereum data in 'ethereum-data--coindesk.csv'.
     3. Use your generalized code to plot the Bitcoin data and Ethereum data in the same chart.
         Make the chart pretty!
-    4. Update the code to take a command line argument that specifies a csv file containing crypto
+    4. Use numpy to calculate the average, median, and any other interesting stats for crypto data
+        on a per-month basis. Plot the data.
+    5. Update the code to take a command line argument that specifies a csv file containing crypto
         data in the expected format and reads from that specified file. Use the Python 'argparse'
         library to do this.
+    
+    NOTE: For each step try to write your code such that you don't have a bunch of duplicated code.
 """
 
 # Open the given csv file in "read" mode.

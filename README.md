@@ -8,6 +8,15 @@ https://www.python.org/downloads/release/python-3810/
 
 Click "Windows installer (64-bit)" to download and then follow the installation.
 
+## Clone this repository
+
+And then rename it to python-lesson-1.
+
+```
+git clone git@github.com:egaebel/python-lessons.git
+mv python-lessons python-lesson-1
+```
+
 ## Setup a VirtualEnv for today's lesson
 
 Virtualenv (now called venv for Python3 apparently) is a handy way to separate
@@ -17,7 +26,7 @@ interfere with another. It comes with Python.
 Run the following in a directory you want to keep your code in:
 
 ```
-mkdir python-lesson-1
+cd python-lesson-1
 py -m venv python-lesson-1
 ```
 

@@ -49,3 +49,11 @@ We're going to need just two packages that aren't included with Python for today
 pip install numpy
 pip install matplotlib
 ```
+
+## Run the program!
+
+There's already some code written, give it a run to make sure everything is set up properly!
+
+```
+python lesson_1_csv_files.py
+```
